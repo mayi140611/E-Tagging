@@ -2,6 +2,7 @@
 
 import pandas as pd
 import os
+import re
 import pickle
 import argparse
 ##cmd
@@ -15,17 +16,35 @@ parser.add_argument('-d','--destpath', type=str, default='.', help='dest file pa
 parser.add_argument('-l','--lineNum', type=int, default=20, help='the line number of small file splitted')
 args = parser.parse_args()
 
-tag2label = {'o':0, 'b':1,'x':2,'s':3,'j':4,'l':5,'zs':6,'tz':7,'jc':8,'t':9,'yw':10,'zl':11,'sb':12,'qt':13,'bw':14,'ab':15,'fa':16,'pr':17,'con':18,'po':19,'hy':20,'oc':21,'hi':22}
-                    
-def splitFile2Small(sourcepath, destpath, lineNum):
-	#'D:\\baiduyunpanbackup\\datasets\\sample-data\\sample-data.csv'
-	df = pd.read_csv(sourcepath,index_col=0)
-	
-	count = 0
-	while count*lineNum<df.shape[0]:
-		#'D:\\github\\zh-NER-TF\\data_path\\tt\\t_{}.csv'
-		df.iloc[count*lineNum:(count*lineNum+lineNum),:].to_csv('{}_{}'.format(destpath,count))
-		count += 1
+tags = ['o','b', 'jx', 'jc', 'm', 'qt','w', 's', 't', 'x', 'yc', 'yw', 'zs', 'zl']
+tag2label = dict(list(zip(tags,range(len(tags)))))
+#{'b': 1, 'bw': 13, 'j': 4, 'jc': 7, 'o': 0, 'qt': 12, 's': 3, 'sb': 11, 't': 8, 'tz': 6, 'x': 2, 'yw': 9, 'zl': 10, 'zs': 5}
+				   
+def removeWhiteSpace(dir,file):
+	"""
+	去除每行文本中的空格
+	"""
+    with open('{}{}.csv'.format(dir,file),'r',encoding='utf8') as f:
+        l = f.readlines()
+    with open('{}r{}.csv'.format(dir,file),'w',encoding='utf8') as f:
+        for i in range(len(l)):
+            if i>0:
+                l[i]=re.sub(r'[ ]+','',l[i])
+        f.writelines(l)
+    return 'r{}{}.csv'.format(dir,file)
+
+def splitText(dir,file,fieldlist):
+	"""
+	把大文件转化为20行的小文件
+	"""
+    df = pd.read_csv('{}{}.csv'.format(dir,file),encoding='utf8')
+    if not os.path.exists('{}{}'.format(dir,file)): 
+        os.mkdir('{}{}'.format(dir,file))
+    count = 0
+    while count*20<df.shape[0]:
+        df[fieldlist].iloc[count*20:(count*20+20),:].to_csv('{0}{1}\\{1}_{2}.csv'.format(dir,file,count),index=False,header=False,sep='\n')
+        count += 1
+
 
 def buildCorpus(sourcepath, destpath):
 	"""
@@ -148,7 +167,15 @@ def loadVocab(vocab_path):
     print('vocab_size:', len(word2id))
     return word2id
 
-if args.mode == 'splitfile':
-	splitFile2Small(args.sourcepath, args.destpath, args.lineNum)
-elif args.mode == 'buildcorpus':
-	buildCorpus(args.sourcepath, args.destpath)
+
+if __name__=='__main__':
+	dir = 'd:\\Desktop\\cndata\\'
+	file = 'u_tb_yl_mz_medical_record'
+	removeWhiteSpace(dir, file)
+	splitText(dir,'r'+file,['ZS','ZZMS'])
+	file = 'u_tb_cis_mzdzbl'
+	removeWhiteSpace(dir, file)
+	splitText(dir,'r'+file,['ZS','XBS','JWS','TGJC','FZJC'])
+	file = 'u_tb_cis_leavehospital_summary'
+	removeWhiteSpace(dir, file)
+	splitText(dir,'r'+file,['RYZZTZ','JCHZ','TSJC'])
