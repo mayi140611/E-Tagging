@@ -17,7 +17,7 @@ parser.add_argument('-l','--lineNum', type=int, default=20, help='the line numbe
 args = parser.parse_args()
 
 tags = ['o','b', 'jx', 'jc', 'm', 'qt','w', 's', 't', 'x', 'yc', 'yw', 'zs', 'zl']
-tag2label = dict(list(zip(tags,range(len(tags)))))
+tag2label = dict(zip(tags,range(len(tags))))
 #{'b': 1, 'bw': 13, 'j': 4, 'jc': 7, 'o': 0, 'qt': 12, 's': 3, 'sb': 11, 't': 8, 'tz': 6, 'x': 2, 'yw': 9, 'zl': 10, 'zs': 5}
 				   
 def removeWhiteSpace(dir,file):
@@ -54,11 +54,15 @@ def buildCorpus(sourcepath, destpath):
 	"""
 	f=open(sourcepath,'r',encoding='utf8')
 	l=f.readlines()
-
+    for i in range(len(l)):
+        for k in tag2label.keys():
+            l[i] = re.sub('/'+k,'/'+k+' ',l[i])
+    f.close()
 	g = []
-	for l in [s.split().strip() for s in l]:
+	for ll in [s.split().strip() for s in l]:
+        
 		gg = []
-		for s in l:
+		for s in ll:
 			i = s.rfind('/')
 			flag = s[i+1:]
 			beginFlag = 'o'
