@@ -1,0 +1,42 @@
+2018-06-13 19:18:42,235:INFO: BiLSTM-CRF for Chinese NER task
+2018-06-13 19:18:54,227:INFO: 2018-06-13 19:18:50 epoch 1, step 1, loss: 132.7, global_step: 1
+2018-06-13 19:18:54,227:INFO: 2018-06-13 19:18:50 epoch 1, step 1, loss: 132.7, global_step: 1
+2018-06-13 19:18:54,721:INFO: ===========validation / test===========
+2018-06-13 19:18:54,721:INFO: ===========validation / test===========
+2018-06-13 19:18:55,571:INFO: 2018-06-13 19:18:55 epoch 2, step 1, loss: 128.2, global_step: 2
+2018-06-13 19:18:55,571:INFO: 2018-06-13 19:18:55 epoch 2, step 1, loss: 128.2, global_step: 2
+2018-06-13 19:18:56,135:INFO: ===========validation / test===========
+2018-06-13 19:18:56,135:INFO: ===========validation / test===========
+2018-06-13 19:18:56,812:INFO: 2018-06-13 19:18:56 epoch 3, step 1, loss: 123.9, global_step: 3
+2018-06-13 19:18:56,812:INFO: 2018-06-13 19:18:56 epoch 3, step 1, loss: 123.9, global_step: 3
+2018-06-13 19:18:57,361:INFO: ===========validation / test===========
+2018-06-13 19:18:57,361:INFO: ===========validation / test===========
+2018-06-13 19:18:58,079:INFO: 2018-06-13 19:18:57 epoch 4, step 1, loss: 116.6, global_step: 4
+2018-06-13 19:18:58,079:INFO: 2018-06-13 19:18:57 epoch 4, step 1, loss: 116.6, global_step: 4
+2018-06-13 19:18:58,558:INFO: ===========validation / test===========
+2018-06-13 19:18:58,558:INFO: ===========validation / test===========
+2018-06-13 19:18:59,226:INFO: 2018-06-13 19:18:58 epoch 5, step 1, loss: 102.0, global_step: 5
+2018-06-13 19:18:59,226:INFO: 2018-06-13 19:18:58 epoch 5, step 1, loss: 102.0, global_step: 5
+2018-06-13 19:18:59,689:INFO: ===========validation / test===========
+2018-06-13 19:18:59,689:INFO: ===========validation / test===========
+2018-06-13 19:19:00,402:INFO: 2018-06-13 19:18:59 epoch 6, step 1, loss: 78.67, global_step: 6
+2018-06-13 19:19:00,402:INFO: 2018-06-13 19:18:59 epoch 6, step 1, loss: 78.67, global_step: 6
+2018-06-13 19:19:00,962:INFO: ===========validation / test===========
+2018-06-13 19:19:00,962:INFO: ===========validation / test===========
+2018-06-13 19:19:01,685:INFO: 2018-06-13 19:19:01 epoch 7, step 1, loss: 73.55, global_step: 7
+2018-06-13 19:19:01,685:INFO: 2018-06-13 19:19:01 epoch 7, step 1, loss: 73.55, global_step: 7
+2018-06-13 19:19:02,165:INFO: ===========validation / test===========
+2018-06-13 19:19:02,165:INFO: ===========validation / test===========
+2018-06-13 19:19:02,861:INFO: 2018-06-13 19:19:02 epoch 8, step 1, loss: 72.18, global_step: 8
+2018-06-13 19:19:02,861:INFO: 2018-06-13 19:19:02 epoch 8, step 1, loss: 72.18, global_step: 8
+2018-06-13 19:19:03,340:INFO: ===========validation / test===========
+2018-06-13 19:19:03,340:INFO: ===========validation / test===========
+2018-06-13 19:19:04,077:INFO: 2018-06-13 19:19:03 epoch 9, step 1, loss: 65.32, global_step: 9
+2018-06-13 19:19:04,077:INFO: 2018-06-13 19:19:03 epoch 9, step 1, loss: 65.32, global_step: 9
+2018-06-13 19:19:04,533:INFO: ===========validation / test===========
+2018-06-13 19:19:04,533:INFO: ===========validation / test===========
+2018-06-13 19:19:05,232:INFO: 2018-06-13 19:19:04 epoch 10, step 1, loss: 57.97, global_step: 10
+2018-06-13 19:19:05,232:INFO: 2018-06-13 19:19:04 epoch 10, step 1, loss: 57.97, global_step: 10
+2018-06-13 19:19:05,704:INFO: ===========validation / test===========
+2018-06-13 19:19:05,704:INFO: ===========validation / test===========
+2018-06-14 09:42:04,693:INFO: Restoring parameters from .\data_path_save\1528888722\checkpoints/model-10

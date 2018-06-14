@@ -1,0 +1,1 @@
+2018-06-14 10:23:47,053:INFO: BiLSTM-CRF for Chinese NER task

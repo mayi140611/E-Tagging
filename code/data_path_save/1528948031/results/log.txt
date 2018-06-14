@@ -1,0 +1,297 @@
+2018-06-14 11:47:11,551:INFO: BiLSTM-CRF for Chinese NER task
+2018-06-14 11:47:38,143:INFO: 2018-06-14 11:47:28 epoch 1, step 1, loss: 234.1, global_step: 1
+2018-06-14 11:47:38,143:INFO: 2018-06-14 11:47:28 epoch 1, step 1, loss: 234.1, global_step: 1
+2018-06-14 11:48:32,395:INFO: 2018-06-14 11:47:28 epoch 1, step 9, loss: 92.82, global_step: 9
+2018-06-14 11:48:32,395:INFO: 2018-06-14 11:47:28 epoch 1, step 9, loss: 92.82, global_step: 9
+2018-06-14 11:48:33,007:INFO: ===========validation / test===========
+2018-06-14 11:48:33,007:INFO: ===========validation / test===========
+2018-06-14 11:48:47,568:INFO: 2018-06-14 11:48:39 epoch 2, step 1, loss: 91.78, global_step: 10
+2018-06-14 11:48:47,568:INFO: 2018-06-14 11:48:39 epoch 2, step 1, loss: 91.78, global_step: 10
+2018-06-14 11:49:45,377:INFO: 2018-06-14 11:48:39 epoch 2, step 9, loss: 65.76, global_step: 18
+2018-06-14 11:49:45,377:INFO: 2018-06-14 11:48:39 epoch 2, step 9, loss: 65.76, global_step: 18
+2018-06-14 11:49:45,933:INFO: ===========validation / test===========
+2018-06-14 11:49:45,933:INFO: ===========validation / test===========
+2018-06-14 11:49:58,877:INFO: 2018-06-14 11:49:52 epoch 3, step 1, loss: 92.37, global_step: 19
+2018-06-14 11:49:58,877:INFO: 2018-06-14 11:49:52 epoch 3, step 1, loss: 92.37, global_step: 19
+2018-06-14 11:51:00,894:INFO: 2018-06-14 11:49:52 epoch 3, step 9, loss: 126.0, global_step: 27
+2018-06-14 11:51:00,894:INFO: 2018-06-14 11:49:52 epoch 3, step 9, loss: 126.0, global_step: 27
+2018-06-14 11:51:01,490:INFO: ===========validation / test===========
+2018-06-14 11:51:01,490:INFO: ===========validation / test===========
+2018-06-14 11:51:16,010:INFO: 2018-06-14 11:51:08 epoch 4, step 1, loss: 93.71, global_step: 28
+2018-06-14 11:51:16,010:INFO: 2018-06-14 11:51:08 epoch 4, step 1, loss: 93.71, global_step: 28
+2018-06-14 11:52:10,732:INFO: 2018-06-14 11:51:08 epoch 4, step 9, loss: 51.17, global_step: 36
+2018-06-14 11:52:10,732:INFO: 2018-06-14 11:51:08 epoch 4, step 9, loss: 51.17, global_step: 36
+2018-06-14 11:52:11,394:INFO: ===========validation / test===========
+2018-06-14 11:52:11,394:INFO: ===========validation / test===========
+2018-06-14 11:52:23,832:INFO: 2018-06-14 11:52:18 epoch 5, step 1, loss: 66.89, global_step: 37
+2018-06-14 11:52:23,832:INFO: 2018-06-14 11:52:18 epoch 5, step 1, loss: 66.89, global_step: 37
+2018-06-14 11:53:19,441:INFO: 2018-06-14 11:52:18 epoch 5, step 9, loss: 51.85, global_step: 45
+2018-06-14 11:53:19,441:INFO: 2018-06-14 11:52:18 epoch 5, step 9, loss: 51.85, global_step: 45
+2018-06-14 11:53:20,100:INFO: ===========validation / test===========
+2018-06-14 11:53:20,100:INFO: ===========validation / test===========
+2018-06-14 11:53:41,586:INFO: 2018-06-14 11:53:26 epoch 6, step 1, loss: 70.66, global_step: 46
+2018-06-14 11:53:41,586:INFO: 2018-06-14 11:53:26 epoch 6, step 1, loss: 70.66, global_step: 46
+2018-06-14 11:54:33,101:INFO: 2018-06-14 11:53:26 epoch 6, step 9, loss: 64.46, global_step: 54
+2018-06-14 11:54:33,101:INFO: 2018-06-14 11:53:26 epoch 6, step 9, loss: 64.46, global_step: 54
+2018-06-14 11:54:33,705:INFO: ===========validation / test===========
+2018-06-14 11:54:33,705:INFO: ===========validation / test===========
+2018-06-14 11:54:47,910:INFO: 2018-06-14 11:54:40 epoch 7, step 1, loss: 56.52, global_step: 55
+2018-06-14 11:54:47,910:INFO: 2018-06-14 11:54:40 epoch 7, step 1, loss: 56.52, global_step: 55
+2018-06-14 11:55:44,633:INFO: 2018-06-14 11:54:40 epoch 7, step 9, loss: 49.13, global_step: 63
+2018-06-14 11:55:44,633:INFO: 2018-06-14 11:54:40 epoch 7, step 9, loss: 49.13, global_step: 63
+2018-06-14 11:55:45,235:INFO: ===========validation / test===========
+2018-06-14 11:55:45,235:INFO: ===========validation / test===========
+2018-06-14 11:55:59,828:INFO: 2018-06-14 11:55:52 epoch 8, step 1, loss: 55.12, global_step: 64
+2018-06-14 11:55:59,828:INFO: 2018-06-14 11:55:52 epoch 8, step 1, loss: 55.12, global_step: 64
+2018-06-14 11:56:58,655:INFO: 2018-06-14 11:55:52 epoch 8, step 9, loss: 28.06, global_step: 72
+2018-06-14 11:56:58,655:INFO: 2018-06-14 11:55:52 epoch 8, step 9, loss: 28.06, global_step: 72
+2018-06-14 11:56:59,237:INFO: ===========validation / test===========
+2018-06-14 11:56:59,237:INFO: ===========validation / test===========
+2018-06-14 11:57:14,111:INFO: 2018-06-14 11:57:06 epoch 9, step 1, loss: 49.71, global_step: 73
+2018-06-14 11:57:14,111:INFO: 2018-06-14 11:57:06 epoch 9, step 1, loss: 49.71, global_step: 73
+2018-06-14 11:58:14,420:INFO: 2018-06-14 11:57:06 epoch 9, step 9, loss: 103.4, global_step: 81
+2018-06-14 11:58:14,420:INFO: 2018-06-14 11:57:06 epoch 9, step 9, loss: 103.4, global_step: 81
+2018-06-14 11:58:14,942:INFO: ===========validation / test===========
+2018-06-14 11:58:14,942:INFO: ===========validation / test===========
+2018-06-14 11:58:29,654:INFO: 2018-06-14 11:58:22 epoch 10, step 1, loss: 41.51, global_step: 82
+2018-06-14 11:58:29,654:INFO: 2018-06-14 11:58:22 epoch 10, step 1, loss: 41.51, global_step: 82
+2018-06-14 11:59:31,286:INFO: 2018-06-14 11:58:22 epoch 10, step 9, loss: 27.28, global_step: 90
+2018-06-14 11:59:31,286:INFO: 2018-06-14 11:58:22 epoch 10, step 9, loss: 27.28, global_step: 90
+2018-06-14 11:59:31,846:INFO: ===========validation / test===========
+2018-06-14 11:59:31,846:INFO: ===========validation / test===========
+2018-06-14 11:59:46,392:INFO: 2018-06-14 11:59:38 epoch 11, step 1, loss: 38.52, global_step: 91
+2018-06-14 11:59:46,392:INFO: 2018-06-14 11:59:38 epoch 11, step 1, loss: 38.52, global_step: 91
+2018-06-14 12:00:39,361:INFO: 2018-06-14 11:59:38 epoch 11, step 9, loss: 27.07, global_step: 99
+2018-06-14 12:00:39,361:INFO: 2018-06-14 11:59:38 epoch 11, step 9, loss: 27.07, global_step: 99
+2018-06-14 12:00:39,891:INFO: ===========validation / test===========
+2018-06-14 12:00:39,891:INFO: ===========validation / test===========
+2018-06-14 12:00:49,929:INFO: 2018-06-14 12:00:46 epoch 12, step 1, loss: 29.84, global_step: 100
+2018-06-14 12:00:49,929:INFO: 2018-06-14 12:00:46 epoch 12, step 1, loss: 29.84, global_step: 100
+2018-06-14 12:01:48,357:INFO: 2018-06-14 12:00:46 epoch 12, step 9, loss: 25.9, global_step: 108
+2018-06-14 12:01:48,357:INFO: 2018-06-14 12:00:46 epoch 12, step 9, loss: 25.9, global_step: 108
+2018-06-14 12:01:48,949:INFO: ===========validation / test===========
+2018-06-14 12:01:48,949:INFO: ===========validation / test===========
+2018-06-14 12:02:10,775:INFO: 2018-06-14 12:01:56 epoch 13, step 1, loss: 34.75, global_step: 109
+2018-06-14 12:02:10,775:INFO: 2018-06-14 12:01:56 epoch 13, step 1, loss: 34.75, global_step: 109
+2018-06-14 12:02:59,891:INFO: 2018-06-14 12:01:56 epoch 13, step 9, loss: 17.86, global_step: 117
+2018-06-14 12:02:59,891:INFO: 2018-06-14 12:01:56 epoch 13, step 9, loss: 17.86, global_step: 117
+2018-06-14 12:03:00,566:INFO: ===========validation / test===========
+2018-06-14 12:03:00,566:INFO: ===========validation / test===========
+2018-06-14 12:03:15,619:INFO: 2018-06-14 12:03:07 epoch 14, step 1, loss: 32.94, global_step: 118
+2018-06-14 12:03:15,619:INFO: 2018-06-14 12:03:07 epoch 14, step 1, loss: 32.94, global_step: 118
+2018-06-14 12:04:15,355:INFO: 2018-06-14 12:03:07 epoch 14, step 9, loss: 29.9, global_step: 126
+2018-06-14 12:04:15,355:INFO: 2018-06-14 12:03:07 epoch 14, step 9, loss: 29.9, global_step: 126
+2018-06-14 12:04:15,883:INFO: ===========validation / test===========
+2018-06-14 12:04:15,883:INFO: ===========validation / test===========
+2018-06-14 12:04:28,433:INFO: 2018-06-14 12:04:23 epoch 15, step 1, loss: 28.6, global_step: 127
+2018-06-14 12:04:28,433:INFO: 2018-06-14 12:04:23 epoch 15, step 1, loss: 28.6, global_step: 127
+2018-06-14 12:05:29,912:INFO: 2018-06-14 12:04:23 epoch 15, step 9, loss: 15.03, global_step: 135
+2018-06-14 12:05:29,912:INFO: 2018-06-14 12:04:23 epoch 15, step 9, loss: 15.03, global_step: 135
+2018-06-14 12:05:30,524:INFO: ===========validation / test===========
+2018-06-14 12:05:30,524:INFO: ===========validation / test===========
+2018-06-14 12:05:44,093:INFO: 2018-06-14 12:05:37 epoch 16, step 1, loss: 31.99, global_step: 136
+2018-06-14 12:05:44,093:INFO: 2018-06-14 12:05:37 epoch 16, step 1, loss: 31.99, global_step: 136
+2018-06-14 12:06:43,882:INFO: 2018-06-14 12:05:37 epoch 16, step 9, loss: 25.76, global_step: 144
+2018-06-14 12:06:43,882:INFO: 2018-06-14 12:05:37 epoch 16, step 9, loss: 25.76, global_step: 144
+2018-06-14 12:06:44,459:INFO: ===========validation / test===========
+2018-06-14 12:06:44,459:INFO: ===========validation / test===========
+2018-06-14 12:07:06,501:INFO: 2018-06-14 12:06:51 epoch 17, step 1, loss: 23.86, global_step: 145
+2018-06-14 12:07:06,501:INFO: 2018-06-14 12:06:51 epoch 17, step 1, loss: 23.86, global_step: 145
+2018-06-14 12:07:59,102:INFO: 2018-06-14 12:06:51 epoch 17, step 9, loss: 56.17, global_step: 153
+2018-06-14 12:07:59,102:INFO: 2018-06-14 12:06:51 epoch 17, step 9, loss: 56.17, global_step: 153
+2018-06-14 12:07:59,905:INFO: ===========validation / test===========
+2018-06-14 12:07:59,905:INFO: ===========validation / test===========
+2018-06-14 12:08:13,538:INFO: 2018-06-14 12:08:07 epoch 18, step 1, loss: 23.81, global_step: 154
+2018-06-14 12:08:13,538:INFO: 2018-06-14 12:08:07 epoch 18, step 1, loss: 23.81, global_step: 154
+2018-06-14 12:09:14,126:INFO: 2018-06-14 12:08:07 epoch 18, step 9, loss: 15.53, global_step: 162
+2018-06-14 12:09:14,126:INFO: 2018-06-14 12:08:07 epoch 18, step 9, loss: 15.53, global_step: 162
+2018-06-14 12:09:14,803:INFO: ===========validation / test===========
+2018-06-14 12:09:14,803:INFO: ===========validation / test===========
+2018-06-14 12:09:29,661:INFO: 2018-06-14 12:09:22 epoch 19, step 1, loss: 28.74, global_step: 163
+2018-06-14 12:09:29,661:INFO: 2018-06-14 12:09:22 epoch 19, step 1, loss: 28.74, global_step: 163
+2018-06-14 12:10:33,146:INFO: 2018-06-14 12:09:22 epoch 19, step 9, loss: 15.06, global_step: 171
+2018-06-14 12:10:33,146:INFO: 2018-06-14 12:09:22 epoch 19, step 9, loss: 15.06, global_step: 171
+2018-06-14 12:10:33,774:INFO: ===========validation / test===========
+2018-06-14 12:10:33,774:INFO: ===========validation / test===========
+2018-06-14 12:10:50,042:INFO: 2018-06-14 12:10:40 epoch 20, step 1, loss: 30.27, global_step: 172
+2018-06-14 12:10:50,042:INFO: 2018-06-14 12:10:40 epoch 20, step 1, loss: 30.27, global_step: 172
+2018-06-14 12:11:49,460:INFO: 2018-06-14 12:10:40 epoch 20, step 9, loss: 36.84, global_step: 180
+2018-06-14 12:11:49,460:INFO: 2018-06-14 12:10:40 epoch 20, step 9, loss: 36.84, global_step: 180
+2018-06-14 12:11:50,006:INFO: ===========validation / test===========
+2018-06-14 12:11:50,006:INFO: ===========validation / test===========
+2018-06-14 12:12:03,399:INFO: 2018-06-14 12:11:57 epoch 21, step 1, loss: 22.99, global_step: 181
+2018-06-14 12:12:03,399:INFO: 2018-06-14 12:11:57 epoch 21, step 1, loss: 22.99, global_step: 181
+2018-06-14 12:13:01,622:INFO: 2018-06-14 12:11:57 epoch 21, step 9, loss: 21.22, global_step: 189
+2018-06-14 12:13:01,622:INFO: 2018-06-14 12:11:57 epoch 21, step 9, loss: 21.22, global_step: 189
+2018-06-14 12:13:02,207:INFO: ===========validation / test===========
+2018-06-14 12:13:02,207:INFO: ===========validation / test===========
+2018-06-14 12:13:17,356:INFO: 2018-06-14 12:13:09 epoch 22, step 1, loss: 16.94, global_step: 190
+2018-06-14 12:13:17,356:INFO: 2018-06-14 12:13:09 epoch 22, step 1, loss: 16.94, global_step: 190
+2018-06-14 12:14:18,650:INFO: 2018-06-14 12:13:09 epoch 22, step 9, loss: 17.75, global_step: 198
+2018-06-14 12:14:18,650:INFO: 2018-06-14 12:13:09 epoch 22, step 9, loss: 17.75, global_step: 198
+2018-06-14 12:14:19,244:INFO: ===========validation / test===========
+2018-06-14 12:14:19,244:INFO: ===========validation / test===========
+2018-06-14 12:14:32,663:INFO: 2018-06-14 12:14:26 epoch 23, step 1, loss: 22.85, global_step: 199
+2018-06-14 12:14:32,663:INFO: 2018-06-14 12:14:26 epoch 23, step 1, loss: 22.85, global_step: 199
+2018-06-14 12:15:32,232:INFO: 2018-06-14 12:14:26 epoch 23, step 9, loss: 13.97, global_step: 207
+2018-06-14 12:15:32,232:INFO: 2018-06-14 12:14:26 epoch 23, step 9, loss: 13.97, global_step: 207
+2018-06-14 12:15:32,808:INFO: ===========validation / test===========
+2018-06-14 12:15:32,808:INFO: ===========validation / test===========
+2018-06-14 12:15:48,018:INFO: 2018-06-14 12:15:40 epoch 24, step 1, loss: 15.5, global_step: 208
+2018-06-14 12:15:48,018:INFO: 2018-06-14 12:15:40 epoch 24, step 1, loss: 15.5, global_step: 208
+2018-06-14 12:16:45,954:INFO: 2018-06-14 12:15:40 epoch 24, step 9, loss: 12.49, global_step: 216
+2018-06-14 12:16:45,954:INFO: 2018-06-14 12:15:40 epoch 24, step 9, loss: 12.49, global_step: 216
+2018-06-14 12:16:46,513:INFO: ===========validation / test===========
+2018-06-14 12:16:46,513:INFO: ===========validation / test===========
+2018-06-14 12:17:01,356:INFO: 2018-06-14 12:16:53 epoch 25, step 1, loss: 13.21, global_step: 217
+2018-06-14 12:17:01,356:INFO: 2018-06-14 12:16:53 epoch 25, step 1, loss: 13.21, global_step: 217
+2018-06-14 12:17:57,763:INFO: 2018-06-14 12:16:53 epoch 25, step 9, loss: 15.39, global_step: 225
+2018-06-14 12:17:57,763:INFO: 2018-06-14 12:16:53 epoch 25, step 9, loss: 15.39, global_step: 225
+2018-06-14 12:17:58,423:INFO: ===========validation / test===========
+2018-06-14 12:17:58,423:INFO: ===========validation / test===========
+2018-06-14 12:18:20,553:INFO: 2018-06-14 12:18:05 epoch 26, step 1, loss: 18.77, global_step: 226
+2018-06-14 12:18:20,553:INFO: 2018-06-14 12:18:05 epoch 26, step 1, loss: 18.77, global_step: 226
+2018-06-14 12:19:10,703:INFO: 2018-06-14 12:18:05 epoch 26, step 9, loss: 38.11, global_step: 234
+2018-06-14 12:19:10,703:INFO: 2018-06-14 12:18:05 epoch 26, step 9, loss: 38.11, global_step: 234
+2018-06-14 12:19:11,363:INFO: ===========validation / test===========
+2018-06-14 12:19:11,363:INFO: ===========validation / test===========
+2018-06-14 12:19:27,832:INFO: 2018-06-14 12:19:18 epoch 27, step 1, loss: 18.72, global_step: 235
+2018-06-14 12:19:27,832:INFO: 2018-06-14 12:19:18 epoch 27, step 1, loss: 18.72, global_step: 235
+2018-06-14 12:20:29,956:INFO: 2018-06-14 12:19:18 epoch 27, step 9, loss: 43.2, global_step: 243
+2018-06-14 12:20:29,956:INFO: 2018-06-14 12:19:18 epoch 27, step 9, loss: 43.2, global_step: 243
+2018-06-14 12:20:30,602:INFO: ===========validation / test===========
+2018-06-14 12:20:30,602:INFO: ===========validation / test===========
+2018-06-14 12:20:41,441:INFO: 2018-06-14 12:20:37 epoch 28, step 1, loss: 17.21, global_step: 244
+2018-06-14 12:20:41,441:INFO: 2018-06-14 12:20:37 epoch 28, step 1, loss: 17.21, global_step: 244
+2018-06-14 12:21:43,288:INFO: 2018-06-14 12:20:37 epoch 28, step 9, loss: 12.15, global_step: 252
+2018-06-14 12:21:43,288:INFO: 2018-06-14 12:20:37 epoch 28, step 9, loss: 12.15, global_step: 252
+2018-06-14 12:21:43,804:INFO: ===========validation / test===========
+2018-06-14 12:21:43,804:INFO: ===========validation / test===========
+2018-06-14 12:21:56,665:INFO: 2018-06-14 12:21:50 epoch 29, step 1, loss: 17.32, global_step: 253
+2018-06-14 12:21:56,665:INFO: 2018-06-14 12:21:50 epoch 29, step 1, loss: 17.32, global_step: 253
+2018-06-14 12:22:54,589:INFO: 2018-06-14 12:21:50 epoch 29, step 9, loss: 11.28, global_step: 261
+2018-06-14 12:22:54,589:INFO: 2018-06-14 12:21:50 epoch 29, step 9, loss: 11.28, global_step: 261
+2018-06-14 12:22:55,278:INFO: ===========validation / test===========
+2018-06-14 12:22:55,278:INFO: ===========validation / test===========
+2018-06-14 12:23:09,502:INFO: 2018-06-14 12:23:02 epoch 30, step 1, loss: 13.78, global_step: 262
+2018-06-14 12:23:09,502:INFO: 2018-06-14 12:23:02 epoch 30, step 1, loss: 13.78, global_step: 262
+2018-06-14 12:24:08,835:INFO: 2018-06-14 12:23:02 epoch 30, step 9, loss: 10.35, global_step: 270
+2018-06-14 12:24:08,835:INFO: 2018-06-14 12:23:02 epoch 30, step 9, loss: 10.35, global_step: 270
+2018-06-14 12:24:09,357:INFO: ===========validation / test===========
+2018-06-14 12:24:09,357:INFO: ===========validation / test===========
+2018-06-14 12:24:31,670:INFO: 2018-06-14 12:24:16 epoch 31, step 1, loss: 16.69, global_step: 271
+2018-06-14 12:24:31,670:INFO: 2018-06-14 12:24:16 epoch 31, step 1, loss: 16.69, global_step: 271
+2018-06-14 12:25:21,136:INFO: 2018-06-14 12:24:16 epoch 31, step 9, loss: 17.24, global_step: 279
+2018-06-14 12:25:21,136:INFO: 2018-06-14 12:24:16 epoch 31, step 9, loss: 17.24, global_step: 279
+2018-06-14 12:25:21,709:INFO: ===========validation / test===========
+2018-06-14 12:25:21,709:INFO: ===========validation / test===========
+2018-06-14 12:25:36,982:INFO: 2018-06-14 12:25:29 epoch 32, step 1, loss: 14.21, global_step: 280
+2018-06-14 12:25:36,982:INFO: 2018-06-14 12:25:29 epoch 32, step 1, loss: 14.21, global_step: 280
+2018-06-14 12:26:39,191:INFO: 2018-06-14 12:25:29 epoch 32, step 9, loss: 8.576, global_step: 288
+2018-06-14 12:26:39,191:INFO: 2018-06-14 12:25:29 epoch 32, step 9, loss: 8.576, global_step: 288
+2018-06-14 12:26:39,733:INFO: ===========validation / test===========
+2018-06-14 12:26:39,733:INFO: ===========validation / test===========
+2018-06-14 12:26:54,780:INFO: 2018-06-14 12:26:47 epoch 33, step 1, loss: 15.37, global_step: 289
+2018-06-14 12:26:54,780:INFO: 2018-06-14 12:26:47 epoch 33, step 1, loss: 15.37, global_step: 289
+2018-06-14 12:27:49,716:INFO: 2018-06-14 12:26:47 epoch 33, step 9, loss: 8.421, global_step: 297
+2018-06-14 12:27:49,716:INFO: 2018-06-14 12:26:47 epoch 33, step 9, loss: 8.421, global_step: 297
+2018-06-14 12:27:50,373:INFO: ===========validation / test===========
+2018-06-14 12:27:50,373:INFO: ===========validation / test===========
+2018-06-14 12:28:05,064:INFO: 2018-06-14 12:27:57 epoch 34, step 1, loss: 13.85, global_step: 298
+2018-06-14 12:28:05,064:INFO: 2018-06-14 12:27:57 epoch 34, step 1, loss: 13.85, global_step: 298
+2018-06-14 12:29:07,285:INFO: 2018-06-14 12:27:57 epoch 34, step 9, loss: 6.124, global_step: 306
+2018-06-14 12:29:07,285:INFO: 2018-06-14 12:27:57 epoch 34, step 9, loss: 6.124, global_step: 306
+2018-06-14 12:29:07,865:INFO: ===========validation / test===========
+2018-06-14 12:29:07,865:INFO: ===========validation / test===========
+2018-06-14 12:29:22,400:INFO: 2018-06-14 12:29:15 epoch 35, step 1, loss: 12.26, global_step: 307
+2018-06-14 12:29:22,400:INFO: 2018-06-14 12:29:15 epoch 35, step 1, loss: 12.26, global_step: 307
+2018-06-14 12:30:22,048:INFO: 2018-06-14 12:29:15 epoch 35, step 9, loss: 16.36, global_step: 315
+2018-06-14 12:30:22,048:INFO: 2018-06-14 12:29:15 epoch 35, step 9, loss: 16.36, global_step: 315
+2018-06-14 12:30:22,577:INFO: ===========validation / test===========
+2018-06-14 12:30:22,577:INFO: ===========validation / test===========
+2018-06-14 12:30:35,615:INFO: 2018-06-14 12:30:29 epoch 36, step 1, loss: 12.47, global_step: 316
+2018-06-14 12:30:35,615:INFO: 2018-06-14 12:30:29 epoch 36, step 1, loss: 12.47, global_step: 316
+2018-06-14 12:31:33,063:INFO: 2018-06-14 12:30:29 epoch 36, step 9, loss: 10.94, global_step: 324
+2018-06-14 12:31:33,063:INFO: 2018-06-14 12:30:29 epoch 36, step 9, loss: 10.94, global_step: 324
+2018-06-14 12:31:33,635:INFO: ===========validation / test===========
+2018-06-14 12:31:33,635:INFO: ===========validation / test===========
+2018-06-14 12:31:49,493:INFO: 2018-06-14 12:31:40 epoch 37, step 1, loss: 15.23, global_step: 325
+2018-06-14 12:31:49,493:INFO: 2018-06-14 12:31:40 epoch 37, step 1, loss: 15.23, global_step: 325
+2018-06-14 12:32:43,638:INFO: 2018-06-14 12:31:40 epoch 37, step 9, loss: 13.07, global_step: 333
+2018-06-14 12:32:43,638:INFO: 2018-06-14 12:31:40 epoch 37, step 9, loss: 13.07, global_step: 333
+2018-06-14 12:32:44,253:INFO: ===========validation / test===========
+2018-06-14 12:32:44,253:INFO: ===========validation / test===========
+2018-06-14 12:33:05,824:INFO: 2018-06-14 12:32:51 epoch 38, step 1, loss: 14.21, global_step: 334
+2018-06-14 12:33:05,824:INFO: 2018-06-14 12:32:51 epoch 38, step 1, loss: 14.21, global_step: 334
+2018-06-14 12:33:51,311:INFO: 2018-06-14 12:32:51 epoch 38, step 9, loss: 5.076, global_step: 342
+2018-06-14 12:33:51,311:INFO: 2018-06-14 12:32:51 epoch 38, step 9, loss: 5.076, global_step: 342
+2018-06-14 12:33:51,838:INFO: ===========validation / test===========
+2018-06-14 12:33:51,838:INFO: ===========validation / test===========
+2018-06-14 12:34:07,892:INFO: 2018-06-14 12:33:58 epoch 39, step 1, loss: 11.04, global_step: 343
+2018-06-14 12:34:07,892:INFO: 2018-06-14 12:33:58 epoch 39, step 1, loss: 11.04, global_step: 343
+2018-06-14 12:35:09,095:INFO: 2018-06-14 12:33:58 epoch 39, step 9, loss: 6.123, global_step: 351
+2018-06-14 12:35:09,095:INFO: 2018-06-14 12:33:58 epoch 39, step 9, loss: 6.123, global_step: 351
+2018-06-14 12:35:09,797:INFO: ===========validation / test===========
+2018-06-14 12:35:09,797:INFO: ===========validation / test===========
+2018-06-14 12:35:21,451:INFO: 2018-06-14 12:35:16 epoch 40, step 1, loss: 8.656, global_step: 352
+2018-06-14 12:35:21,451:INFO: 2018-06-14 12:35:16 epoch 40, step 1, loss: 8.656, global_step: 352
+2018-06-14 12:36:13,548:INFO: 2018-06-14 12:35:16 epoch 40, step 9, loss: 6.687, global_step: 360
+2018-06-14 12:36:13,548:INFO: 2018-06-14 12:35:16 epoch 40, step 9, loss: 6.687, global_step: 360
+2018-06-14 12:36:14,060:INFO: ===========validation / test===========
+2018-06-14 12:36:14,060:INFO: ===========validation / test===========
+2018-06-14 12:38:32,084:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 12:41:17,557:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 12:41:17,557:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 12:55:00,987:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 16:52:42,502:DEBUG: diff parser start
+2018-06-14 16:52:42,503:DEBUG: diff parser calculated
+2018-06-14 16:52:42,504:DEBUG: diff: line_lengths old: 1, new: 15
+2018-06-14 16:52:42,504:DEBUG: diff replace old[1:1] new[1:15]
+2018-06-14 16:52:42,509:DEBUG: parse_part from 1 to 15 (to 14 in part parser)
+2018-06-14 16:52:42,510:DEBUG: diff parser end
+2018-06-14 16:55:32,112:DEBUG: diff parser start
+2018-06-14 16:55:32,113:DEBUG: diff parser calculated
+2018-06-14 16:55:32,114:DEBUG: diff: line_lengths old: 15, new: 1
+2018-06-14 16:55:32,115:DEBUG: diff replace old[1:15] new[1:1]
+2018-06-14 16:55:32,116:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-14 16:55:32,117:DEBUG: diff parser end
+2018-06-14 16:55:52,337:DEBUG: diff parser start
+2018-06-14 16:55:52,338:DEBUG: diff parser calculated
+2018-06-14 16:55:52,339:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-14 16:55:52,339:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-14 16:55:52,341:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-14 16:55:52,341:DEBUG: diff parser end
+2018-06-14 16:56:48,565:DEBUG: diff parser start
+2018-06-14 16:56:48,565:DEBUG: diff parser calculated
+2018-06-14 16:56:48,566:DEBUG: diff: line_lengths old: 1, new: 18
+2018-06-14 16:56:48,567:DEBUG: diff replace old[1:1] new[1:18]
+2018-06-14 16:56:48,573:DEBUG: parse_part from 1 to 17 (to 17 in part parser)
+2018-06-14 16:56:48,574:DEBUG: parse_part from 17 to 18 (to 17 in part parser)
+2018-06-14 16:56:48,575:DEBUG: diff parser end
+2018-06-14 16:56:48,639:DEBUG: pickle loaded: C:\Users\Ian\Anaconda3\lib\io.py
+2018-06-14 17:07:26,426:DEBUG: diff parser start
+2018-06-14 17:07:26,427:DEBUG: diff parser calculated
+2018-06-14 17:07:26,428:DEBUG: diff: line_lengths old: 18, new: 25
+2018-06-14 17:07:26,429:DEBUG: diff equal old[1:12] new[1:12]
+2018-06-14 17:07:26,436:DEBUG: parse_part from 1 to 24 (to 24 in part parser)
+2018-06-14 17:07:26,437:DEBUG: diff insert old[13:12] new[13:14]
+2018-06-14 17:07:26,438:DEBUG: diff equal old[13:13] new[15:15]
+2018-06-14 17:07:26,439:DEBUG: diff replace old[14:16] new[16:23]
+2018-06-14 17:07:26,440:DEBUG: diff equal old[17:18] new[24:25]
+2018-06-14 17:07:26,441:DEBUG: parse_part from 24 to 25 (to 24 in part parser)
+2018-06-14 17:07:26,442:DEBUG: diff parser end
+2018-06-14 17:07:30,157:DEBUG: diff parser start
+2018-06-14 17:07:30,158:DEBUG: diff parser calculated
+2018-06-14 17:07:30,159:DEBUG: diff: line_lengths old: 25, new: 25
+2018-06-14 17:07:30,159:DEBUG: diff equal old[1:17] new[1:17]
+2018-06-14 17:07:30,168:DEBUG: parse_part from 1 to 24 (to 24 in part parser)
+2018-06-14 17:07:30,169:DEBUG: diff replace old[18:18] new[18:18]
+2018-06-14 17:07:30,170:DEBUG: diff equal old[19:25] new[19:25]
+2018-06-14 17:07:30,170:DEBUG: parse_part from 24 to 25 (to 24 in part parser)
+2018-06-14 17:07:30,171:DEBUG: diff parser end
+2018-06-14 17:15:37,704:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 17:16:22,195:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 17:18:19,295:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 17:19:46,233:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 17:24:10,212:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
+2018-06-14 17:27:21,692:INFO: Restoring parameters from .\data_path_save\1528948031\checkpoints/model-360
