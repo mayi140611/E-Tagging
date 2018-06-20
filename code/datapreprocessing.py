@@ -142,7 +142,7 @@ tag2label = {'1b': 21,
 				   
 def removeWhiteSpace(dir,file):
 	"""
-	去除每行文本中的空格
+	人工打标签前的工作：去除每行文本中的空格
 	"""
 	with open('{}{}.csv'.format(dir,file),'r',encoding='utf8') as f:
 		l = f.readlines()
@@ -155,7 +155,7 @@ def removeWhiteSpace(dir,file):
 
 def splitText(dir,file,fieldlist):
 	"""
-	把大文件转化为20行的小文件
+	人工打标签前的工作：把大文件转化为20行的小文件
 	"""
 	df = pd.read_csv('{}{}.csv'.format(dir,file),encoding='utf8')
 	if not os.path.exists('{}{}'.format(dir,file)): 
@@ -165,6 +165,17 @@ def splitText(dir,file,fieldlist):
 		df[fieldlist].iloc[count*20:(count*20+20),:].to_csv('{0}{1}\\{1}_{2}.csv'.format(dir,file,count),index=False,header=False,sep='\n')
 		count += 1
 
+def mergeCSV(corpus_dir):
+	'''
+	把小的语料文件合并为大的语料文件
+	'''
+	for s in os.listdir(corpus_dir):
+		if s.endswith('.csv'):
+			print(os.path.join(corpus_dir,s))
+			with open(os.path.join(corpus_dir,s),'r',encoding='utf8') as f:
+				l = f.readlines()
+			with open(os.path.join(corpus_dir,'merged.csv'),'a',encoding='utf8') as f:
+				f.writelines(l)
 
 def buildCorpus(sourcepath, destpath):
 	"""
@@ -207,17 +218,6 @@ def buildCorpus(sourcepath, destpath):
 			for s in gg:
 				f.write(s)
 	return d
-def mergeCorpus(corpus_dir):
-	'''
-	把小的语料文件合并为大的语料文件
-	'''
-	for s in os.listdir(corpus_dir):
-		if s.endswith('.csv'):
-			print(os.path.join(corpus_dir,s))
-			with open(os.path.join(corpus_dir,s),'r',encoding='utf8') as f:
-				l = f.readlines()
-			with open(os.path.join(corpus_dir,'merged.csv'),'a',encoding='utf8') as f:
-				f.writelines(l)
     
 def readCorpus(corpus_path):
 	"""
@@ -234,6 +234,9 @@ def readCorpus(corpus_path):
 			[char, label] = line.strip().split()
 			sent_.append(char)
 			tag_.append(label)
+			if char == '。':#按句进行拆分
+				data.append((sent_, tag_))
+				sent_, tag_ = [], []                
 		else:
 			if sent_:
 				data.append((sent_, tag_))
@@ -276,7 +279,7 @@ def buildVocab(vocab_path, corpus_path, min_count=1):
 	word2id['<UNK>'] = new_id
 	word2id['<PAD>'] = 0
 
-	print(len(word2id))
+	print('words size: ',len(word2id))
 	with open(vocab_path, 'wb') as fw:
 		pickle.dump(word2id, fw)
 	return word2id
