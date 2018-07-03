@@ -359,3 +359,51 @@
 2018-06-20 12:23:54,383:INFO: ===========validation / test===========
 2018-06-20 12:23:54,383:INFO: ===========validation / test===========
 2018-06-20 12:23:54,383:INFO: ===========validation / test===========
+2018-06-20 12:28:27,233:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-20 12:38:50,743:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-21 10:11:17,999:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:12:34,578:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:13:17,164:DEBUG: diff parser start
+2018-06-27 13:13:17,165:DEBUG: diff parser calculated
+2018-06-27 13:13:17,166:DEBUG: diff: line_lengths old: 27, new: 27
+2018-06-27 13:13:17,167:DEBUG: diff equal old[1:23] new[1:23]
+2018-06-27 13:13:17,167:DEBUG: diff actually copy 1 to 7
+2018-06-27 13:13:17,172:DEBUG: parse_part from 8 to 26 (to 26 in part parser)
+2018-06-27 13:13:17,173:DEBUG: diff replace old[24:24] new[24:24]
+2018-06-27 13:13:17,174:DEBUG: diff equal old[25:27] new[25:27]
+2018-06-27 13:13:17,175:DEBUG: parse_part from 26 to 27 (to 26 in part parser)
+2018-06-27 13:13:17,176:DEBUG: diff parser end
+2018-06-27 13:13:52,669:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:13:52,669:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:14:22,525:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:14:22,525:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:14:22,525:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:21:26,890:DEBUG: diff parser start
+2018-06-27 13:21:26,890:DEBUG: diff parser start
+2018-06-27 13:21:26,890:DEBUG: diff parser start
+2018-06-27 13:21:26,891:DEBUG: diff parser calculated
+2018-06-27 13:21:26,891:DEBUG: diff parser calculated
+2018-06-27 13:21:26,891:DEBUG: diff parser calculated
+2018-06-27 13:21:26,892:DEBUG: diff: line_lengths old: 27, new: 7
+2018-06-27 13:21:26,892:DEBUG: diff: line_lengths old: 27, new: 7
+2018-06-27 13:21:26,892:DEBUG: diff: line_lengths old: 27, new: 7
+2018-06-27 13:21:26,892:DEBUG: diff replace old[1:27] new[1:7]
+2018-06-27 13:21:26,892:DEBUG: diff replace old[1:27] new[1:7]
+2018-06-27 13:21:26,892:DEBUG: diff replace old[1:27] new[1:7]
+2018-06-27 13:21:26,894:DEBUG: parse_part from 1 to 7 (to 6 in part parser)
+2018-06-27 13:21:26,894:DEBUG: parse_part from 1 to 7 (to 6 in part parser)
+2018-06-27 13:21:26,894:DEBUG: parse_part from 1 to 7 (to 6 in part parser)
+2018-06-27 13:21:26,894:DEBUG: diff parser end
+2018-06-27 13:21:26,894:DEBUG: diff parser end
+2018-06-27 13:21:26,894:DEBUG: diff parser end
+2018-06-27 13:22:11,660:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:22:11,660:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:22:11,660:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:22:11,660:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:23:05,640:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:23:05,640:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:23:05,640:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:23:05,640:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:23:05,640:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:39:59,780:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200
+2018-06-27 13:41:18,798:INFO: Restoring parameters from .\data_path_save\1529463214\checkpoints/model-1200

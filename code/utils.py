@@ -17,6 +17,43 @@ def get_entity(tag_seq, char_seq):
 #     LOC = get_LOC_entity(tag_seq, char_seq)
 #     ORG = get_ORG_entity(tag_seq, char_seq)
     return ZS
+def get_entitys(flaglist, tag_seq, char_seq):
+    dict1 = dict()
+    for flag in flaglist:
+        dict1[flag] = get_x_entity(flag,tag_seq,char_seq)
+    return dict1
+def get_x_entity(flag,tag_seq,char_seq):
+    beginFlag = 'B-{}'.format(flag.upper())
+    endFlag = 'I-{}'.format(flag.upper())
+    length = len(char_seq)
+    X = []
+    m = 0
+    word = ''
+    for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
+        if m == 0:
+            if tag == beginFlag:
+    #             if '{}'.format(flag) in locals().keys():
+    #                 X.append(flag)
+    #                 del flag
+    #             flag = char
+    #             if i+1 == length:
+                word += char
+                m = 1
+        elif m == 1:
+            if tag == endFlag:
+                word += char
+            else:
+                if word:
+                    X.append(word)
+                word = ''
+                m = 0
+                if tag == beginFlag:
+                    word += char
+                    m = 1
+    if word:
+        X.append(word)
+    return X
+    
 
 def get_ZS_entity(tag_seq, char_seq):
     length = len(char_seq)
