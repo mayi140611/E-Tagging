@@ -176,7 +176,7 @@ def buildCorpus(sourcepath, destpath):
 	l=f.readlines()
     #在每个标注后面加空格
 	for i in range(len(l)):
-		for k in tag2label.keys():
+		for k in tags:
 			l[i] = re.sub('/'+k,'/'+k+' ',l[i])
 	f.close()
 	g = []
@@ -189,7 +189,7 @@ def buildCorpus(sourcepath, destpath):
 			flag = s[i+1:]
 			beginFlag = 'O'
 			endFlag = 'O'
-			if flag != 'o' and (flag in tag2label):
+			if flag != 'o' and (flag in tags):
 				beginFlag = 'B-{}'.format(flag.upper())
 				endFlag = 'I-{}'.format(flag.upper())
 				word = s[:i]
