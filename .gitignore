@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.npy
+*.h5
+*.pkl
+code/data_path_save/*
 # C extensions
 *.so
 
